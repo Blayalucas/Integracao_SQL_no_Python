@@ -1,0 +1,30 @@
+# Criar um SQL   "PythonSQL"   
+
+"""
+Passo 1: create database PythonSQL
+Passo 2: Apagar o create database PythonSQL
+Passo 3: digitar 
+Use PythonSQL
+CREATE TABLE Vendas(
+    id_venda int,
+    cliente varchar(50),  # varchar == caracteres
+    produto varchar(50),  # varchar == caracteres
+    data_venda date,
+    preco decimal(3,2),
+    quantidade int,
+    )
+Passo 4: Clicar no play (execute)
+Passo 5 : Apagar tudo e digitar  # "As mesma informações da Table "
+
+INSERT INTO Vendas(id_venda, cliente, produto, data_venda, preco, quantidade)
+VALUES
+    (1, 'Lucas Blaya', 'IPHONE', '24/06/2023', 8.000, 1)
+
+Passo 6: Clicar no play (execute)
+Passo 7: Abrir uma Nova Consulta (New Query)
+Passo 8: Digitar 
+Use PythonSQL
+select * from Vendas
+
+OBS: Para criar uma outra consultar basta "executar" e "executar" 
+"""
